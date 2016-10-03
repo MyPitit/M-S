@@ -1,0 +1,42 @@
+#table {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.table {
+    display: table;
+}
+
+.product {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    box-sizing: border-box;
+}
+
+@media
+only screen and (max-width: 768px) {
+
+    .cell {
+        display: block;
+        float: left;
+        width: 50%;
+        height: 40px;
+        &:last-of-type {
+            width: 100%;
+        }
+    }
+}
+
+@media
+only screen and (max-width: 320px)  {
+
+    .cell {
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+}
