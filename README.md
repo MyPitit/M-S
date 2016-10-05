@@ -1,7 +1,7 @@
 # How to run this project
 + Clone this repository:
 ```
-$git clone git@github.com:MyPitit/FrontEnd-skills.git
+$git clone https://github.com/MyPitit/M-S.git
 ```
 
 + Once you have cloned this repository, open the ```html``` file in ```Firefox``` browser.
